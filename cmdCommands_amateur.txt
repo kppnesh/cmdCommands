@@ -1,0 +1,50 @@
+------------------------------------------------------------------------------------------------------------
+***********************General Command prompt commands windows**********************************************
+------------------------------------------------------------------------------------------------------------
+[Drive letter]:                                         --> Change the drive
+cd                                                      --> Displays name of the directory
+cd [Path]                                               --> Change directory to the "Path"
+cd ..                                                   --> Move one directory up
+cd\                                                     --> Move to the top of the directory tree
+cd /d [Path]                                            --> Change to the directory in another drive
+dir                                                     --> {directory} list every files in current directory
+dir [Folder Name]                                       --> list files in "Folder Name" directory
+dir a*                                                  --> list files in folder starts with "a" [Wild card]
+mkdir [NewDirectoryName]                                --> creates new folder in current directory
+rmdir [directoryName]                                   --> deleted particular directory
+rmdir /s [directoryName]                                --> deleted particular directory even if some files exists in that directory
+
+type [File name]                                        --> Open txt like files in appropiate cmd window
+echo "Type here" > [fileName.txt]                       --> Updates(overwrites) contents in the fileName.txt file
+echo "Type here" >> [fileName.txt]                      --> Updates(add contents after existing) contents in the fileName.txt file
+start                                                   --> Starts another cmd prompt in same directory
+start [file/folder Name]                                --> Opens files/folders in default preference
+fc [file1] [file2]                                      --> Compare two files (used to find subtle difference in codes)
+
+ipconfig                                                --> ipaddress and network details
+netstat                                                 --> {Network statistics} List the proto/ports in this pc
+ping <ip or domain>                                     --> used to check whether network is working properly by sending a data packet
+pathping <ip or domain>                                 --> Advanced ping used to check home routers
+tracert <ip or domain>                                  --> {trace route} Advanced pathping. Also captures time to ping
+
+systeminfo                                              --> Details about the system
+getmac                                                  --> gets mac address of your network interface
+hostname                                                --> Display host name of the machine
+date                                                    --> Shows today's date
+time                                                    --> Shows current time
+ver                                                     --> Version of windows
+mstsc                                                   --> {Microsoft terminal service client} Opens RDP client
+tasklist                                                --> List all tasks running in this pc 
+tasklist -v                                             --> List all tasks running in this pc with more info 
+driverquery                                             --> List all drivers installed in that system
+driverquery -v                                          --> List all drivers installed in that system with more info
+
+cls                                                     --> Clear screen
+help                                                    --> Displays all commands
+help {cmd}                                              --> displays help for that particular cmd
+exit                                                    --> Exit command prompt
+-------------------------------------------------------------------------------------------------------------------------------------
+Note:
+    ctrl+c      --> Terminates the running cmd
+---------------------------------------------------------------------------------------------------------------------------------------
+************************************************************************************************************************************
